@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(cookieParser());
 
 router.get('',(req,res,next) => {
-  res.end('Hello World!!!');
+  res.end('Hello World!');
 });
 
 app.use('',router);
